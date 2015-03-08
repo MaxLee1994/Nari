@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/api.css')
+
+  body
+    .container
+      .row
+        .col-md-3
+          nav.affix
+            ul.nav
+              for i, count in table
+                li
+                  a.trigger #{i.title}
+                  if i.list != undefined
+                    ul.nav
+                      for j in i.list
+                        li
+                          a(href='##{count}-#{j.url}') #{j.title}
+        .col-md-9
+          for section, count in apis
+            for val, key in section
+              div(id='#{count}-#{key}').md-block !{val}
+
+
+    script(src='/js/jquery.min.js')
+    script(src='/js/bootstrap.min.js')
+    script(src='/js/api.js')
