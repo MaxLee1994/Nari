@@ -8,7 +8,7 @@ html
   body
     .container
       .row
-        .col-md-3
+        .col-sm-3
           nav.affix
             ul.nav
               for i, count in table
@@ -19,7 +19,7 @@ html
                       for j in i.list
                         li
                           a(href='##{count}-#{j.url}') #{j.title}
-        .col-md-9
+        .col-sm-9
           for section, count in apis
             for val, key in section
               div(id='#{count}-#{key}').md-block !{val}
