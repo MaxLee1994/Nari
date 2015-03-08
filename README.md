@@ -26,3 +26,8 @@
 	+ `"list"`: Array, 描述一级API下的具体接口信息
 		- `"title"` : 接口标题
 		- `"url"` : 接口对应Markdown文件名
+
+
+### 接口文档Markdown文件
+
+放置在`doc/`目录下，暂时只能放在`doc/`根目录下。文件名应与`description.json`中定义的`url`相同，否则无法呈现。
