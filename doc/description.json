@@ -6,11 +6,11 @@
             "list": [
                 {
                     "title": "PutOne",
-                    "url": "111"
+                    "url": "sample1"
                 },
                 {
                     "title": "PutTwo",
-                    "url": "222"
+                    "url": "sample2"
                 }
             ]
         },
@@ -19,15 +19,15 @@
             "list": [
                 {
                     "title": "PutOne",
-                    "url": "111"
+                    "url": "sample1"
                 },
                 {
                     "title": "PutTwo",
-                    "url": "222"
+                    "url": "sample2"
                 },
                 {
                     "title": "PutThree",
-                    "url": "333"
+                    "url": "sample3"
                 }
             ]
         }
